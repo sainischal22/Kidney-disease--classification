@@ -5,3 +5,72 @@
 [2024-05-22 14:50:30,615: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-05-22 14:50:30,617: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2024-05-22 14:50:50,813: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 18:24:26,414: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-22 18:24:26,423: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 18:24:26,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 18:24:26,436: INFO: common: created directory at: artifacts]
+[2024-05-22 18:24:26,437: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-22 18:24:26,437: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 18:24:44,497: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 18:24:45,394: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-22 18:24:45,395: INFO: main: *******************]
+[2024-05-22 18:24:45,395: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-22 18:24:45,395: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 25, in <module>
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2024-05-22 18:56:21,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 18:56:21,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 18:56:21,134: INFO: common: created directory at: artifacts]
+[2024-05-22 18:58:45,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 18:58:45,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 18:58:45,101: INFO: common: created directory at: artifacts]
+[2024-05-22 18:58:45,102: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-22 18:58:45,865: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-22 19:27:47,345: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-22 19:27:47,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 19:27:47,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 19:27:47,350: INFO: common: created directory at: artifacts]
+[2024-05-22 19:27:47,350: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-22 19:27:47,351: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 19:28:07,432: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 19:28:08,610: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-22 19:28:08,610: INFO: main: *******************]
+[2024-05-22 19:28:08,611: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-22 19:28:08,611: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 25, in <module>
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2024-05-22 19:29:03,822: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-22 19:29:03,825: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 19:29:03,827: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 19:29:03,828: INFO: common: created directory at: artifacts]
+[2024-05-22 19:29:03,828: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-22 19:29:03,829: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 19:29:21,039: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-22 19:29:21,927: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-22 19:29:21,928: INFO: main: *******************]
+[2024-05-22 19:29:21,928: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-22 19:29:21,930: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-22 19:29:21,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-22 19:29:21,933: INFO: common: created directory at: artifacts]
+[2024-05-22 19:29:21,934: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-22 19:29:22,491: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-22 19:29:22,769: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-22 19:29:22,769: INFO: main: *******************]
+[2024-05-22 19:29:22,770: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-22 19:29:22,770: ERROR: main: name 'ModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 38, in <module>
+    model_trainer = ModelTrainingPipeline()
+NameError: name 'ModelTrainingPipeline' is not defined
