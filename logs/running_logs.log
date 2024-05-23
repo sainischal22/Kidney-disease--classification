@@ -1058,3 +1058,8 @@ x==========x]
 [2024-05-23 23:39:13,267: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-23 23:45:52,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-23 23:45:52,487: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-23 23:45:52,491: INFO: common: created directory at: artifacts]
+[2024-05-23 23:45:52,494: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-23 23:45:53,985: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
