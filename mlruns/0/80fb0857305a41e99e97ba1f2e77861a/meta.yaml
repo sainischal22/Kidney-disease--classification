@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/nischal/Kidney-disease--classification/mlruns/0/80fb0857305a41e99e97ba1f2e77861a/artifacts
+end_time: 1716485043027
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80fb0857305a41e99e97ba1f2e77861a
+run_name: fortunate-lynx-131
+run_uuid: 80fb0857305a41e99e97ba1f2e77861a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716485024063
+status: 3
+tags: []
+user_id: nischal
